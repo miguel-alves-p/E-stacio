@@ -1,0 +1,137 @@
+#contato {
+  background: linear-gradient(#111111 400px, #f7f7f7 0px);
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.contato-dados,
+.contato-formulario {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.contato-dados {
+  background: #000000;
+}
+.contato-formulario {
+  background: #ffffff;
+}
+.contato-dados h2 {
+  margin-bottom: 60px;
+}
+
+.contato-endereco {
+  margin-bottom: 32px;
+  padding-left: 28px;
+  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
+}
+
+.contato-endereco p {
+  margin-bottom: 8px;
+}
+
+.contato-meios a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 8px;
+  padding-left: 28px;
+}
+
+.contato-meios a:hover {
+  color: #ffffff;
+}
+
+.contato-meios a:first-child {
+  background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+}
+
+.contato-meios a:nth-child(2) {
+  margin-bottom: 32px;
+}
+
+.contato-meios a:nth-child(3) {
+  background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+  margin-bottom: 60px;
+}
+
+
+.form-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-contato label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+.form-contato .col-2 {
+  grid-column: span 2;
+}
+
+.form-contato input[type="text"],
+.form-contato input[type="email"],
+.form-contato input[type="password"],
+.form-contato textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: #f7f7f7;
+  border: 1px solid #ededed;
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-contato input[type="text"]:focus,
+.form-contato input[type="email"]:focus,
+.form-contato input[type="password"]:focus,
+.form-contato textarea:focus { 
+  outline: none;
+  border-color: #ffbb00;
+  background: #ffffff;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.tabela {
+  margin: 50px auto;
+  text-align: center;
+  justify-content: center;
+}
+.tabela__cabecalho {
+  background-color: #717171;
+  color: var( --cor-0);
+}
+td, th{
+  border: 1px solid #000000;
+  padding: 8px 21px;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+.tabela {
+  border-collapse: collapse;
+  margin: 25px auto;
+  min-width: 400px;
+}
+.tabela thead tr {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+}
+.tabela th,
+.tabela td {
+    padding: 12px 15px;
+    text-align: left;
+}

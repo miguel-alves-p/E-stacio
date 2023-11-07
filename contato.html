@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | E-stácio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="./css/style.css" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body id="contato">
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./">
+        <img src="./img/E-STÁCIO.svg" width="136" height="32" alt="Odyssey">
+      </a>
+
+      <nav aria-label="primaria">
+        <ul class="header-menu font-1-m cor-0">
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <li><a href="./cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="titulo-bg">
+      <div class="container">
+        <h1 class="font-1-xxl cor-0">nosso contato<span class="cor-p1">.</span></h1>
+      </div>
+    </div>
+    <div class="contato container">
+      <section class="contato-dados" aria-label="Endereço">
+        <h2 class="font-1-m cor-0">Loja Online</h2>
+        <div class="contato-endereco font-2-s cor-4">
+          <p>Rua Imaginária, 10</p>
+          <p>Rio de Janeiro - RJ</p>
+          <p>Brasil</p>
+        </div>
+        <address class="contato-meios font-2-s cor-4">
+          <a href="mailto:contato@e-stacio">contato@e-stacio</a>
+          <a href="tel:+552299999999">+55 22 9999-9999</a>
+        </address>
+    
+      </section>
+      <section class="contato-formulario" aria-label="Formulário">
+        <form class="form-contato" action="./contato.html">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+          </div>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(22) 9999-9999">
+          </div>
+          <div class="col-2">
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="Seu e-mail">
+          </div>
+          <div class="col-2">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+          </div>
+          <button class="botao col-2">Enviar mensagem</button>
+        </form>
+      </section>
+    </div>
+   <section class="container">
+    <table class="tabela font-1-s">
+      <thead>
+          <tr>
+              <th>Dia</th>
+              <th>Horário</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Segunda a sexta</td>
+              <td>8h às 18h</td>
+          </tr>
+          <tr>
+              <td>Sábado</td>
+              <td>9h às 12h</td>
+          </tr>
+      </tbody>
+  </table>
+</section>
+  </main>
+  </main>
+
+  <footer class="footer-bg" id="contato-footer">
+    <div class="footer container">
+      <img src="./img/E-STÁCIO.svg" alt="E-stacio">
+      <div class="footer-contato">
+        <h3 class="font-2-l-b cor-0">Contato</h3>
+        <ul class="cor-5 font-2-m">
+          <li><a href="tel:+552299999999">+55 22 9999-9999</a></li>
+          <li><a href="mailto:contato@odyssey.com">contato@e-stacio.com</a></li>
+          <li>Rua Imaginária, 10 - Centro</li>
+          <li>Rio de Janeiro - RJ</li>
+        </ul>
+      </div>
+      <div class="footer-info">
+        <h3 class="font-2-l-b cor-0">Informações</h3>
+        <nav>
+          <ul class="font-1-m cor-5">
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./cadastro.html">Cadastro</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-copy font-2-m cor-6">E-stacio © Alguns direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>

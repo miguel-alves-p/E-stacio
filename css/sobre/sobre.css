@@ -1,0 +1,18 @@
+.sobre h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sobre {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.sobre p + h2 {
+  margin-top: 40px;
+}
+
+.sobre p {
+  margin-bottom: 24px;
+  max-width: 75ch;
+}
